@@ -1,0 +1,23 @@
+Introduction
+In today’s fast-paced world, the ability to process and analyze 
+data in real time is more than a luxury 
+— it’s a necessity for any business that aims to deliver timely 
+insights and respond quickly to market changes. 
+This is where real-time data engineering comes into play, 
+forming the backbone of analytics platforms that can handle 
+streaming data efficiently and effectively.
+
+This project, “End-to-End Real-Time Data Engineering: A Project 
+Template Guide with Kafka, Spark, PostgreSQL, and Dash,” 
+is designed to provide a comprehensive walk-through of setting 
+up a real-time data pipeline, from initial data production and 
+messaging to processing, storage, and finally, interactive 
+visualization.
+Part 1: Data Production and Messaging, 
+focuses on the foundational step of our pipeline: producing and sending data using Kafka. 
+Here, we’ll explore how to set up a Kafka Python producer to generate and send data streams 
+and how to configure Apache Kafka using Docker-Compose for robust, scalable messaging. 
+
+Building a Kafka Python Producer Service:
+In order to build our service, we need out producer logic in 
+a python script, a Dockerfile to define the container of this python script and a requirements.txt file to install the required dependencies for our python script to run in a containerized environment. Place all these files inside a kafka_producer folder to separate the services from each other in folder level.
