@@ -83,7 +83,7 @@ def produce_data() -> None:
             producer.produce("weather", value=data, callback=delivery_report)
             print(f"Sent data: {data}")
         producer.flush()
-        sleep(1)  # Simulate data production delay
+        sleep(0.1)  # Simulate data production delay
 
 
 
